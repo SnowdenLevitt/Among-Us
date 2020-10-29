@@ -7,7 +7,6 @@ GLASS_SHADOW = ''
 
 s = turtle.getscreen()
 t = turtle.Turtle()
-s.getcanvas().postscript(file="usa.jpg")
 
 def body():
 	""" draws the body """
@@ -107,4 +106,4 @@ def backpack():
 body()
 glass()
 backpack()
-
+turtle.done()
