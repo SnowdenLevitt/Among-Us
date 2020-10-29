@@ -106,4 +106,5 @@ def backpack():
 body()
 glass()
 backpack()
+s.getcanvas().postscript(file="amongus2.eps")
 turtle.done()
